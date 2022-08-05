@@ -25,10 +25,4 @@ bool is_perfect_prime(int n){
 	return is_prime(n);
 }
 
-int main(){
-	int n;
-	while (cin >> n) {
-		cout << is_perfect_prime(n) << endl;
-	}
-}
 
